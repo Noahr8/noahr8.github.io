@@ -4,8 +4,13 @@ body {
 
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:30%;
     padding:10px;
     margin:10px;
     margin-bottom: 20px;
@@ -19,6 +24,8 @@ body {
     padding:10px;
     margin-right: 20px;
     border-radius:5px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
